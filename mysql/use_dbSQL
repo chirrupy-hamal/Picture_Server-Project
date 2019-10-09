@@ -1,0 +1,8 @@
+mysql -uroot < db.sql
+
+//检查数据库
+mysql -uroot
+use image_system;
+show tables;
+desc image_table;
+select * from image_table;
